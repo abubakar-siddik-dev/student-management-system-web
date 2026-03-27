@@ -115,5 +115,5 @@ MIT License
 
 ## 👨‍💻 Author
 
-Abubakar Siddik  
+Abu Bakar Siddik  
 GitHub: https://github.com/abubakar-siddik-dev
