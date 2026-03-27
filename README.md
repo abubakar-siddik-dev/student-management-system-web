@@ -1,8 +1,8 @@
 # 🎓 Student Management System (Full Stack)
 
+![License](https://img.shields.io/badge/license-MIT-green)
 ![GitHub repo size](https://img.shields.io/github/repo-size/abubakar-siddik-dev/student-management-system-web)
 ![GitHub stars](https://img.shields.io/github/stars/abubakar-siddik-dev/student-management-system-web?style=social)
-![GitHub forks](https://img.shields.io/github/forks/abubakar-siddik-dev/student-management-system-web?style=social)
 
 ---
 
@@ -62,33 +62,21 @@ npm start---
 
 # ☁️ Deployment Guide
 
-## 🔹 Backend Deploy (Render)
+## 🔹 Backend (Render)
 
-1. Go to 👉 https://render.com  
-2. Click New Web Service  
-3. Connect your GitHub repo  
-4. Fill settings:
+- Build:
+pip install -r requirements.txt- Start:
+uvicorn main:app --host 0.0.0.0 --port 10000---
 
-- Build Command:
-pip install -r requirements.txt- Start Command:
-uvicorn main:app --host 0.0.0.0 --port 100005. Click Deploy ✅  
+## 🔹 Frontend (Vercel)
 
-👉 After deploy, you will get:
-https://your-app-name.onrender.com---
+- Import repo
+- Select frontend folder
+- Deploy
 
-## 🔹 Frontend Deploy (Vercel)
+---
 
-1. Go to 👉 https://vercel.com  
-2. Import your GitHub repo  
-3. Select frontend folder  
-4. Deploy
-
-👉 You will get:
-https://your-app.vercel.app---
-
-## ⚠️ Important (Connect Frontend + Backend)
-
-In api.js, change:
+## ⚠️ Connect Frontend + Backend
 
 const API = "https://your-backend.onrender.com";---
 
@@ -109,7 +97,7 @@ const API = "https://your-backend.onrender.com";---
 
 ## 📄 License
 
-MIT License
+This project is licensed under the MIT License.
 
 ---
 
